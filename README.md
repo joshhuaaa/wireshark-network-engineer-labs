@@ -79,15 +79,19 @@ I also observed the difference between HTTP and HTTPS traffic. This demonstrated
 
 ---
 
-## Wireshark Capture
+## Captures
 
-The screenshot below shows traffic captured while generating web traffic from the Linux virtual machine.
+Wireshark captures from the investigation are available in the [`captures`](./captures) directory.
 
-![Wireshark traffic capture](images/wireshark-bbc-capture.png)
+The captures include examples of:
 
-The capture contains traffic generated while accessing a website, including DNS and TCP traffic.
+* DNS queries and responses
+* TCP connections and handshakes
+* HTTP/HTTPS traffic
+* Web traffic generated from the Linux VM
 
-I used Wireshark to identify the protocols involved and examine the communication between my virtual machine and external servers.
+Each capture is labelled with a short description of what was being investigated.
+
 
 ---
 
